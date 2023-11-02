@@ -5,6 +5,11 @@ This README is just a fast quick start document.
 
 ## Install Kernel/compiler/qemu
 Nothing specail, install as normal. Only need to install our versions.
+### Note
+Disable this configs:
+```kconfig
+CONFIG_X86_5LEVEL=n
+```
 
 ## Depolyment
 
